@@ -1087,7 +1087,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #72E8D3;
+  background-color: #DEFDFF;
 }
 input,
 button,
@@ -4976,13 +4976,14 @@ a.badge:focus {
   font-family: 'Alfa Slab One', cursive;
   color: white;
 }
+
 .jumbotron h2 {
   margin-bottom: 15px;
   margin-top: 40px;
   font-size: 3em;
   font-weight: 200;
   font-family: 'Kaushan Script', cursive;
-  color: white;
+  color: #DEFDFF;
   text-align: center;
 
 }
@@ -5028,6 +5029,7 @@ a.badge:focus {
   text-align: center;
   font-family: 'Poiret One', cursive;
   font-size: 2em;
+  color: #DEFDFF;
 }
 
 .thumbnail {
@@ -5062,7 +5064,7 @@ a.thumbnail.active {
 }
 
 .thumbnail:hover{
-  background-color: #72E8D3;
+  background-color: #DEFDFF;
 }
 .alert {
   padding: 15px;
