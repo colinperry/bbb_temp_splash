@@ -4983,7 +4983,7 @@ a.badge:focus {
   font-size: 3em;
   font-weight: 200;
   font-family: 'Kaushan Script', cursive;
-  color: #DEFDFF;
+  color: white;
   text-align: center;
 
 }
@@ -5029,7 +5029,7 @@ a.badge:focus {
   text-align: center;
   font-family: 'Poiret One', cursive;
   font-size: 2em;
-  color: #DEFDFF;
+  color: white;
 }
 
 .thumbnail {
