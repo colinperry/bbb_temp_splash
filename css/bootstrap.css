@@ -4963,16 +4963,35 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #98AEFF;
+  background-color: #000000;
+  border: 2px solid red;
 }
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
+  text-align: center;
+  font-family: 'Alfa Slab One', cursive;
+  color: white;
+}
+.jumbotron h2 {
+  margin-bottom: 15px;
+  margin-top: 40px;
+  font-size: 2em;
+  font-weight: 200;
+  font-family: 'Alfa Slab One', cursive;
+  color: #98AEFF;
+  text-align: center;
+
 }
 .jumbotron p {
   margin-bottom: 15px;
-  font-size: 21px;
+  margin-top: 40px;
+  font-size: 2em;
   font-weight: 200;
+  font-family: 'Alfa Slab One', cursive;
+  color: white;
+  text-align: center;
+
 }
 .jumbotron > hr {
   border-top-color: #d5d5d5;
@@ -5001,14 +5020,33 @@ a.badge:focus {
     font-size: 63px;
   }
 }
+
+.socials{
+  border: 2px solid red;
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.socials p{
+  text-align: center;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 2em;
+}
+
 .thumbnail {
-  display: block;
-  padding: 4px;
-  margin-bottom: 20px;
-  line-height: 1.42857143;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  border: 2px solid red;
+  border-radius: 10px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
   -webkit-transition: border .2s ease-in-out;
        -o-transition: border .2s ease-in-out;
           transition: border .2s ease-in-out;
