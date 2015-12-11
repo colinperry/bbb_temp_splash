@@ -1087,7 +1087,8 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #DEFDFF;
+  background-color: #FF4920;
+  background: url("background.jpg");
 }
 input,
 button,
@@ -4967,8 +4968,8 @@ a.badge:focus {
   margin-top: 20px;
   color: inherit;
   background-color: black;
-/*  border: 2px solid red;
-*/}
+  background-color: rgba(300, 0, 0, 0.5);
+}
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
@@ -5023,6 +5024,8 @@ a.badge:focus {
   padding: 20px;
   text-align: center;
   border-radius: 8px;
+  background-color: rgba(300, 0, 0, 0.5);
+
 }
 
 .socials p{
@@ -5068,8 +5071,7 @@ a.thumbnail.active {
 }
 
 .contact{
-  /*  border: 2px solid red;
-*/  margin-top: 35px;
+  margin-top: 35px;
   background-color: black;
   color: white;
   padding: 20px;
@@ -5077,6 +5079,8 @@ a.thumbnail.active {
   border-radius: 8px;
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 1.5em;
+  background-color: rgba(300, 0, 0, 0.5);
+
 
 }
 .alert {
