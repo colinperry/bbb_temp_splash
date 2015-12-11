@@ -5041,15 +5041,13 @@ a.badge:focus {
   display: inline-block;
   padding: 20px;
   text-align: center;
-/*  background-color: white;
-*//*  border: 2px solid red;
-*/  border-radius: 10px;
+  border-radius: 10px;
   margin-right: 15px;
   margin-left: 15px;
   margin-top: 15px;
-  -webkit-transition: border .2s ease-in-out;
+/*  -webkit-transition: border .2s ease-in-out;
        -o-transition: border .2s ease-in-out;
-          transition: border .2s ease-in-out;
+          transition: border .2s ease-in-out;*/
 }
 .thumbnail > img,
 .thumbnail a > img {
@@ -5067,7 +5065,13 @@ a.thumbnail.active {
 }
 
 .thumbnail:hover{
-  background-color: #F0FFFB;
+  -o-transition:.2s;
+  -ms-transition:.2s;
+  -moz-transition:.2s;
+  -webkit-transition:.2s;
+  transition:.2s;
+  background-color: #FF2C16;
+  opacity: .8;
 }
 
 .contact{
