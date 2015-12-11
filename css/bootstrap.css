@@ -5033,8 +5033,8 @@ a.badge:focus {
 }
 
 .thumbnail {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   display: inline-block;
   padding: 20px;
   text-align: center;
