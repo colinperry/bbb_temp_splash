@@ -1088,7 +1088,7 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color: #FF4920;
-  background: url("again.jpg");
+  background: url("background.jpg");
 }
 input,
 button,
@@ -5019,16 +5019,13 @@ a.badge:focus {
 }
 
 .socials{
-/*  border: 2px solid red;
-*/  margin-top: 40px;
+  margin-top: 40px;
   background-color: black;
   color: white;
   padding: 20px;
   text-align: center;
   border-radius: 5px;
   background-color: rgba(225, 0, 0, 0.26);
-/*  border: 1px #E8E8E0;
-*/
 }
 
 .socials p{
