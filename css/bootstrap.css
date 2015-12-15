@@ -4965,10 +4965,12 @@ a.badge:focus {
   padding-top: 20px;
   padding-bottom: 30px;
   margin-top: 40px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   color: inherit;
   background-color: black;
-  background-color: rgba(225, 0, 0, 0.375);
+  background-color: rgba(225, 0, 0, 0.35);
+/*  border: 1px solid white;
+*/  border-radius: 5px;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -4976,17 +4978,17 @@ a.badge:focus {
   text-align: center;
   font-family: 'Patua One', cursive;
   color: white;
+  -webkit-text-stroke: 1px black;
 }
 
 .jumbotron h2 {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   margin-top: 40px;
   font-size: 3em;
   font-weight: 200;
   font-family: 'Alegreya Sans', sans-serif;
   color: white;
   text-align: center;
-
 }
 .jumbotron > hr {
   border-top-color: #d5d5d5;
@@ -5023,9 +5025,10 @@ a.badge:focus {
   color: white;
   padding: 20px;
   text-align: center;
-  border-radius: 8px;
-  background-color: rgba(225, 0, 0, 0.175);
-
+  border-radius: 5px;
+  background-color: rgba(225, 0, 0, 0.28);
+/*  border: 1px #E8E8E0;
+*/
 }
 
 .socials p{
@@ -5045,6 +5048,7 @@ a.badge:focus {
   margin-right: 15px;
   margin-left: 15px;
   margin-top: 15px;
+  background-color: white;
 /*  -webkit-transition: border .2s ease-in-out;
        -o-transition: border .2s ease-in-out;
           transition: border .2s ease-in-out;*/
@@ -5070,21 +5074,22 @@ a.thumbnail.active {
   -moz-transition:.2s;
   -webkit-transition:.2s;
   transition:.2s;
-  background-color: #FF2C16;
   opacity: .8;
 }
 
 .contact{
-  margin-top: 35px;
+  margin-top: 30px;
   background-color: black;
   color: white;
   padding: 20px;
-  text-align: center;
-  border-radius: 8px;
+  text-align: right;
+  border-radius: 5px;
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 1.5em;
-  background-color: rgba(225, 0, 0, 0.175);
+  background-color: rgba(225, 0, 0, 0.275);
 
+/*  border: 1px solid white;
+*/
 
 }
 .alert {
